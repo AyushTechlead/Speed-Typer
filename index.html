@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Speed Typer</title>
+  </head>
+  <body onload="typeWriter()" oncontextmenu = "return false">
+    <h1 class="text-center brand">Speed-Typer</h1>
+    <br><br>
+    <div class="text-center">
+      <div class="btn-group">
+        <button type="button" class = "lvl dropdown-toggle" id ="lvlSelect" data-toggle="dropdown">Select Level</button>
+        <div class="dropdown-menu drops">
+          <a class = "dropdown-item" href="#" name = "easy" onclick="changeLevel('Easy')">Easy</a>
+          <a class = "dropdown-item" href="#" name = "medium" onclick="changeLevel('Medium')">Medium</a>
+          <a class = "dropdown-item" href="#" name = "hard" onclick="changeLevel('Hard')">Hard</a>
+        </div>
+      </div>
+
+      <br>
+      <p id = "words"></p>
+      <br><br>
+      <h1 id = "query">Hello</h1><br>
+      <input type="text" name="gameText" placeholder="Start Typing.." size = "60">
+    </div>
+    <br>
+    <div class="container">
+      <div class="row wordss text-center">
+        <div class="col-lg-6">
+          <div class="timeLogic">
+            Time Left: sec
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="scoreLogic">
+            Total Score: 0
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+      <div class="row text-center notice">
+        <div class="col-lg-12">
+          <h1>Instructions</h1>
+          <p style="color:white">Select the level you want to play. Type each word in the given amount of seconds to score. To play again, select the level again. <br><br>
+          <mark>*The words are case sensitive.</mark><br>
+                <mark style="background-color:#28df99">*Advance Level comming for Beta soon.
+          </mark>
+          </p>
+        </div>
+      </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/master.js"></script>
+
+  </body>
+</html>

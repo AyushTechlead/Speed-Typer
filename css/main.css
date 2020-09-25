@@ -1,0 +1,52 @@
+body{
+  background-color: #0f4c75;
+}
+
+.brand{
+  background-color: #bbe1fa;
+  padding: 10px 0 25px 0;
+  font-family: Pacifico;
+}
+
+.scoree{
+  font-family: Pacifico;
+  font-size: 30px;
+  color: #bbe1fa;
+}
+
+.drop{
+   border-radius:25px;
+   display:inline-block;
+   overflow:hidden;
+}
+
+.lvl{
+  height: 45px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #01a9b4;
+}
+
+#words{
+  color: #e0dede;
+  font-family: Source Code Pro;
+  font-size: 30px;
+}
+
+.wordss{
+    font-family: Pacifico;
+    color: #e0dede;
+    font-size: 30px;
+}
+
+.notice{
+  background-color: #01a9b4;
+}
+
+.drops{
+  background-color: #bbe1fa;;
+}
+
+#query{
+  color: #d9ecf2;
+}
